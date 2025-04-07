@@ -38,7 +38,7 @@ function defaultEvents(dataDay,dataName,dataNotes,classTag){
   date.addClass("event--" + classTag);
 }
 
-defaultEvents('2022-3-31', 'Aaron','7:00 PM - 12:30 AM','Schedule');
+defaultEvents('2025-3-31', 'Aaron','7:00 PM - 12:30 AM','Schedule');
 defaultEvents('2022-12-25', 'MERRY CHRISTMAS','A lot of gift!!!!','festivity');
 defaultEvents('2022-05-04', "LUCA'S BIRTHDAY",'Another gifts...?','birthday');
 defaultEvents('2022-03-03', "MY LADY'S BIRTHDAY",'A lot of money to spent!!!!','birthday');
