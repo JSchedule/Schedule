@@ -40,13 +40,13 @@ function defaultEvents(dataDay,dataName,dataNotes,classTag){
 
 //year/month/day
 defaultEvents('2022-03-31', "Aaron",'7:00 PM - 12:30 AM','festivity');
-defaultEvents('2022-04-01', "Aaron",'4:00pm - 11:00pm','festivity');
-defaultEvents('2022-04-01', "Cheyenne",'6:00am - 6:00pm','festivity');
-defaultEvents('2022-04-01', "Dawna",'11:00pm - 8:00am','festivity');
-defaultEvents('2022-04-01', "Kjirsten",'12:30pm - 10:00pm','festivity');
-defaultEvents('2022-04-01', "Peytin",'off','festivity');
-defaultEvents('2022-04-01', "Sabrina",'7:00pm - 11:00pm','festivity');
-defaultEvents('2022-04-01', "Tina",'8:00am - 4:00pm','festivity');
+defaultEvents('2022-04-01', "Aaron",'4:00pm - 11:00pm','event');
+defaultEvents('2022-04-01', "Cheyenne",'6:00am - 6:00pm','event');
+defaultEvents('2022-04-01', "Dawna",'11:00pm - 8:00am','event');
+defaultEvents('2022-04-01', "Kjirsten",'12:30pm - 10:00pm','event');
+defaultEvents('2022-04-01', "Peytin",'off','event');
+defaultEvents('2022-04-01', "Sabrina",'7:00pm - 11:00pm','event');
+defaultEvents('2022-04-01', "Tina",'8:00am - 4:00pm','event');
 
 
 // ------ functions control -------
