@@ -16,16 +16,11 @@ html, body {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 100;
   overflow: hidden;
+  color: #530418;
 }
 
 #calendar {
-  width: 30vw;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  transition: 1s;
-  transform-origin: center center;
+  position: static;
 }
 #calendar #current_day {
   background: rgba(255, 255, 255, 0.4);
@@ -38,9 +33,6 @@ html, body {
 }
 #calendar #current_day p {
   margin: 0;
-}
-#calendar #week-container {
-  -webkit-mask-image: linear-gradient(to left, transparent 0%, white 35%, white 65%, transparent 100%);
 }
 #calendar #week {
   transition: 0.5s;
@@ -140,4 +132,28 @@ html, body {
 #calendar.active #week {
   transition: 0.5s;
   grid-template-columns: repeat(7, 200px);
+}
+.DivToScroll{   
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+}
+
+.DivWithScroll{
+    height:120px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.height-limit {
+    max-height:150px;
+    overflow-y: auto;
+}
+.height-limitbig {
+    max-height:700px;
+    overflow-y: auto;
 }
