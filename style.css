@@ -157,3 +157,7 @@ html, body {
     max-height:700px;
     overflow-y: auto;
 }
+ol li{
+  list-style-type: none;
+  color: blue;
+}
